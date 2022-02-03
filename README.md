@@ -1,7 +1,10 @@
-# ToDO Cerinte
+# ToDO List
 
-### Creaza o lista de elemente
-### Elementele sa poata fi adaugate printr-un input si un buton
-### Elementele sa poata fi sterse din lista curenta si adaugate intr-o lista de competed 
-### Sa afisezi lista de completed sub cea de ToDo
+### Cerinte
+- Creaza un ToDo list
+- Elementele sa poata fi adaugate printr-un input si un buton
+- Elementele sa poata fi marcate ca finalizate din lista curenta si mutate intr-o lista de elemente finalizate
+- Sa poata debifa din lista de Completed, iar item-ul sa fie readus in lista curenta 
+- Sa poti sterge elemente din oricare dintre liste
+- Sa afisezi lista de Completed sub cea de ToDo
 
