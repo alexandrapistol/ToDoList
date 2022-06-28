@@ -1,0 +1,52 @@
+@import url(./sections/header.css);
+@import url(./sections/main.css);
+@import url(./sections/footer.css);
+
+@import url(./components/list.css);
+@import url(./components/search.css);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root, main {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 2rem 5%;
+  overflow: auto;
+}
+
+.footer {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 0.25rem 5%;
+}
